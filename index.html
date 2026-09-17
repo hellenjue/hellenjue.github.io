@@ -6,23 +6,92 @@
     <title>Developer Profile | Hellen Wamucii Njue</title>
     <style>
         body { 
-            font-family: sans-serif; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             max-width: 800px; 
-            margin: 40px auto; 
+            margin: 60px auto; 
             padding: 0 20px; 
-            line-height: 1.6; 
-            background-color: #f6f8fa;
-            color: #24292f;
+            line-height: 1.7; 
+            background-color: #f0f2f5;
+            color: #1c1e21;
         }
-        h1 { color: #238636; border-bottom: 2px solid #238636; padding-bottom: 10px; }
-        .card { background: white; padding: 20px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card { 
+            background: white; 
+            padding: 40px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+            border-top: 5px solid #238636;
+            text-align: center; /* Centers profile elements */
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #238636;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        h1 { 
+            color: #238636; 
+            font-size: 2.2rem;
+            margin-top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #4b4f56;
+            text-align: left; /* Keeps text paragraphs natural to read */
+        }
+        .badge-container {
+            margin: 25px 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .badge {
+            background-color: #eaf5ea;
+            color: #238636;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .footer-note {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px dashed #e1e4e8;
+            font-size: 0.95rem;
+            color: #6a737d;
+        }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>Hello World! I'm Hellen Wamucii Njue</h1>
-        <p>Welcome to my live site hosted on GitHub Pages for Week 0 of the IYF Weekend Academy Season 12.</p>
-        <p>I am building this website to complete Task 0.4 and establish my live developer portfolio portfolio baseline.</p>
+        <!-- 📸 Your GitHub Profile Photo pulled automatically -->
+        <img src="https://github.com" alt="Hellen Wamucii Njue" class="profile-img">
+
+        <h1>👋 Hello World! I'm Hellen Wamucii Njue</h1>
+        
+        <div class="badge-container">
+            <span class="badge">🚀 Week 0 Task</span>
+            <span class="badge">💻 Git & GitHub Practice</span>
+            <span class="badge">🔥 Aspiring Developer</span>
+        </div>
+
+        <p>✨ Welcome to my official live platform hosted securely on <strong>GitHub Pages</strong> for the <strong>IYF Weekend Academy Season 12</strong>.</p>
+        
+        <p>🛠️ I am engineering this responsive site to complete <strong>Task 0.4</strong>, serving as the foundational launchpad for my professional developer portfolio baseline.</p>
+        
+        <div class="footer-note">
+            ⚡ <em>"Driven by curiosity, powered by clean layouts, and built code block by code block."</em>
+        </div>
     </div>
 </body>
 </html>
